@@ -1,0 +1,21 @@
+body {
+  font-family: sans-serif;
+}
+
+a {
+  margin: 5px;
+}
+
+.active {
+  color: gold;
+}
+
+
+.contact img {
+  animation: logo-spin infinite 20s linear;
+}
+
+@keyframes logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
